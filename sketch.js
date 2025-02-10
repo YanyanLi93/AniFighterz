@@ -88,9 +88,9 @@ function showCharacterSelection() {
   text("Shield", 600,440);
   text("Shield", 300,440);
   textSize(30);
-  text("Press SPACE to go next", width / 2, 550);
+  text("Press ENTER to go next", width / 2, 550);
 
-  if (keyIsPressed && key === ' ') {
+  if (keyIsPressed && keyCode === ENTER) {
     sound1.play();
       gameState = "settingSelect";
     }
