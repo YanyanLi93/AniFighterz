@@ -76,7 +76,7 @@ function showCharacterSelection() {
   text("Select the Player", width / 2, 100);
   textFont(myFont1);
   textSize(15);
-  text("Remember! Shield can be used only ONCE!", width / 2, 500);
+  text("Remember! Shield can be used only 3 SEC!", width / 2, 500);
   image(panda, 180, 150, 120, 120);
   image(cat, 480, 150, 120, 115);
   image(pandakey, 190, 260, 120, 120);
